@@ -12,7 +12,7 @@ info: #显示info信息
   build.version: $project.version$  
 ---
 spring:
-  profiles: dev #测试
+  profiles: text #测试
 info: #显示info信息
   app.name: hxflowservicecloud-yhgl-cs-7003
   company.name: www.hopeseen.com
