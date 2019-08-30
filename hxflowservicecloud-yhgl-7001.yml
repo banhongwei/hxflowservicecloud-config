@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev #开发
+info: #显示info信息
+  app.name: hxflowservicecloud-yhgl-kf-7001
+  company.name: www.hopeseen.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$  
+---
+spring:
+  profiles: dev #测试
+info: #显示info信息
+  app.name: hxflowservicecloud-yhgl-cs-7001
+  company.name: www.hopeseen.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$  
