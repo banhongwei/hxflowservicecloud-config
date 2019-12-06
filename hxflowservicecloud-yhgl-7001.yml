@@ -7,7 +7,7 @@ spring:
   profiles: dev #开发
 info: #显示info信息
   app.name: hxflowservicecloud-yhgl-kf-7001
-  company.name: www.hopeseen.com11111111
+  company.name: www.hopeseen.com000000000
   build.artifactId: $project.artifactId$
   build.version: $project.version$  
 ---
